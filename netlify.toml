@@ -1,8 +1,0 @@
-[build]
-  command = "npm install --legacy-peer-deps && npm run build"
-  publish = "build" # or "dist", depending on your framework (React = "build")
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
